@@ -16,6 +16,24 @@ def turn_right():
 
 for step in range(6):
     lompat()
+-------------HURDLE 2---------------
+def lompat():
+    move()
+    turn_left()
+    move()
+    turn_right()
+    move()
+    turn_right()
+    move()
+    turn_left()
+    
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+    
+while at_goal()==False:
+    lompat()
 #######-------------HURDLE 3-----------------#########
 def lompat():
     turn_left()
