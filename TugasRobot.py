@@ -77,7 +77,7 @@ while at_goal()==False:
     elif not wall_in_front():
         move()
 -----------------------MAZE------------------------
-kondisi():
+def kondisi():
     while wall_in_front()==False:
         move()
         if wall_in_front()==False and right_is_clear()==True:
